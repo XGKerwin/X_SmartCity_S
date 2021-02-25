@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:id="@+id/btn_registered"
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:id="@+id/img"
+        android:padding="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="百人书法比赛"
+            android:textSize="20dp"
+            android:lines="1"
+            />
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="百人书法比赛"
+            android:textSize="15dp"
+            android:lines="1"
+            />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="时间：2020-10-02 09:10:08    报名：108    点赞1000"
+            android:textSize="10dp"
+            android:lines="1"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

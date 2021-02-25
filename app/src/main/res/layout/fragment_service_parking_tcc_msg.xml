@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/title"/>
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="德百停车场"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/jvli"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="距离：100M"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/zhuangtai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:text="开放"
+        android:layout_marginLeft="10dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/shoufei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:text="停车费：1元/小时   一天最高20元"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/shengyu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:text="剩余车位：300"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/dizhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:text="地址：东风东路234号"
+        android:layout_marginLeft="10dp"
+        />
+
+</LinearLayout>

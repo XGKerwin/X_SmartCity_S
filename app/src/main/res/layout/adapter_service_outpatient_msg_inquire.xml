@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名：赵子涵        手机号：13505347777"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:lines="1"
+        />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间：2020-10-1 周四 下午14：00"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:padding="3dp"
+        />
+
+    <TextView
+        android:id="@+id/yisheng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="主治医生：王斌"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        />
+
+</LinearLayout>

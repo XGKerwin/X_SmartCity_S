@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/zhuse_S"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="地铁路线"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/xianlu1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地铁1号线"
+                android:padding="10dp"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="#CECEDD"
+                />
+
+            <TextView
+                android:id="@+id/xianlu2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地铁2号线"
+                android:padding="10dp"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="#CECEDD"
+                />
+
+            <TextView
+                android:id="@+id/xianlu3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地铁3号线"
+                android:padding="10dp"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="#CECEDD"
+                />
+
+            <TextView
+                android:id="@+id/xianlu4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地铁4号线"
+                android:padding="10dp"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="#CECEDD"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#CECEDD"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="地铁1号线"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:id="@+id/txt_xianlu"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:id="@+id/img"
+                android:gravity="top"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

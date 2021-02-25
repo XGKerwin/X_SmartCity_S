@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_marginTop="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:id="@+id/btn_registered"
+    >
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:id="@+id/img"
+        android:scaleType="fitXY"
+        android:padding="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="1dp"
+        >
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center|left"
+            android:layout_marginLeft="10dp"
+            android:text="百人书法比赛"
+            android:textSize="25dp"
+            android:lines="1"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="right"
+            >
+            <TextView
+                android:id="@+id/paiming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="排名："
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

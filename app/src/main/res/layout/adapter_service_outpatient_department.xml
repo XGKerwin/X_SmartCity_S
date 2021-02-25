@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/layout"
+    android:background="#E4E4E4"
+    android:layout_margin="2dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="神经内科"
+        android:textSize="20dp"
+        android:padding="3dp"
+        android:id="@+id/title"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/msg"
+        android:textSize="15dp"
+        android:text="介绍：神经内科是关于神经方面的二级学科。不属于内科概念。主要收治脑血管疾病（脑梗塞、脑出血）、偏头痛、脑部炎症性疾病（脑炎、脑膜炎）、脊髓炎、癫痫、痴呆、代谢病和遗传倾向疾病、三叉神经痛、坐骨神经病、周围神经病及重症肌无力等。"
+        android:lines="2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:textSize="15dp"
+        android:text="主要：紧急救治和抢救"
+        android:id="@+id/zhuyao"
+        />
+
+</LinearLayout>
