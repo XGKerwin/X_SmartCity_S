@@ -16,6 +16,10 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.x_smartcity_s.Adapter.Service_adapter;
+import com.example.x_smartcity_s.Fragment.Service.Fragment_Service_Outpatient;
+import com.example.x_smartcity_s.Fragment.Service.Fragment_Service_Parking;
+import com.example.x_smartcity_s.Fragment.Service.Fragment_Service_Smartbus;
+import com.example.x_smartcity_s.Fragment.Service.Fragment_Service_Violation;
 import com.example.x_smartcity_s.Fragment.Service.Fragment_Service_event;
 import com.example.x_smartcity_s.Fragment.Service.Fragment_Service_metro;
 import com.example.x_smartcity_s.OnClickItem;
@@ -141,6 +145,10 @@ public class Fragment_Service extends Fragment {
                                     getFragment(new Fragment_Service_Pension());
                                 }else if (name.equals("停车场")){
                                     getFragment(new Fragment_Service_Parking());
+                                }else if (name.equals("智慧巴士")){
+                                    getFragment(new Fragment_Service_Smartbus());
+                                }else if (name.equals("生活缴费")){
+                                    getFragment(new Fragment_Service_Payment());
                                 }
                             }
                         });
@@ -156,7 +164,7 @@ public class Fragment_Service extends Fragment {
 
     private void getFragment(Fragment fragment) {
         FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.fragment_home,fragment).commit();
+        fragmentTransaction.replace(R.id.fragment_home,fragment).addToBackStack(null).commit();
     }
 
     private void initView(View view) {

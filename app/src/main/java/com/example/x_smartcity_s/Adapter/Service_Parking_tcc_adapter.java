@@ -12,7 +12,6 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.x_smartcity_s.Fragment.Fragment_Service_Parking_tcc;
 import com.example.x_smartcity_s.R;
 import com.example.x_smartcity_s.bean.GetParkInfor;
 

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/ed_name"
+            android:layout_marginLeft="30dp"
+            android:text="abc"
+            />
+
+        <Button
+            android:id="@+id/btn_chazhao"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:textSize="15dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/bai_yuan"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="已支付"
+            android:textSize="20dp"
+            android:id="@+id/btn_yizhifu"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="3dp"
+            android:background="@drawable/waihei"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="未支付"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            android:id="@+id/btn_weizhifu"
+            android:background="@drawable/waihei"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerview"
+        android:padding="3dp"
+        />
+
+
+</LinearLayout>

@@ -12,8 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.x_smartcity_s.Fragment.Fragment_Service_Parking;
-import com.example.x_smartcity_s.Fragment.Fragment_Service_Parking_tcc;
+import com.example.x_smartcity_s.Fragment.Service.Fragment_Service_Parking_tcc;
 import com.example.x_smartcity_s.R;
 import com.example.x_smartcity_s.bean.GetParkInfor;
 

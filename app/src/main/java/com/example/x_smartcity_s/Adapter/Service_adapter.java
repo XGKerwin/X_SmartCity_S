@@ -70,8 +70,10 @@ public class Service_adapter extends RecyclerView.Adapter<Service_adapter.ViewHo
             @Override
             public void onClick(View v) {
                 onClickItem.onClick(position,holder.fuwuTxt.getText().toString());
+
             }
         });
+
     }
 
     @Override

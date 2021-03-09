@@ -5,91 +5,63 @@
     android:layout_height="match_parent"
     >
 
-    <include layout="@layout/title"/>
-
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:background="@color/purple_700"
         >
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="德州"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:paddingLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="生活缴费"
+            android:gravity="center"
+            android:textColor="#fff"
+            />
+
+        <LinearLayout
+            android:id="@+id/btn_fanhui"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bai_yuan"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="返回"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
         android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
         >
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            >
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical"
-                android:padding="20dp"
-                android:background="@drawable/hui_yuan1"
-                android:layout_margin="20dp"
-                android:id="@+id/btn_reservation"
-                >
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/yanglao_yuyue"
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="预约养老院"
-                    android:textSize="20dp"
-                    android:gravity="center"
-                    android:layout_marginTop="10dp"
-                    />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical"
-                android:padding="20dp"
-                android:background="@drawable/hui_yuan1"
-                android:layout_margin="20dp"
-                android:id="@+id/btn_surroundings"
-                >
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/yanglao_huanjing"
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="环境检测"
-                    android:textSize="20dp"
-                    android:gravity="center"
-                    android:layout_marginTop="10dp"
-                    />
-
-
-            </LinearLayout>
-
-
-        </LinearLayout>
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -106,19 +78,19 @@
                 android:padding="20dp"
                 android:background="@drawable/hui_yuan1"
                 android:layout_margin="20dp"
-                android:id="@+id/btn_food"
+                android:id="@+id/btn_shuifei"
                 >
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:src="@drawable/yanglao_canyin"
+                    android:src="@drawable/shoufei_shuifei"
                     />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="餐饮服务"
+                    android:text="水费查询"
                     android:textSize="20dp"
                     android:gravity="center"
                     android:layout_marginTop="10dp"
@@ -135,19 +107,19 @@
                 android:padding="20dp"
                 android:background="@drawable/hui_yuan1"
                 android:layout_margin="20dp"
-                android:id="@+id/btn_Occupancy"
+                android:id="@+id/btn_dianfei"
                 >
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:src="@drawable/yanglao_ruzhu"
+                    android:src="@drawable/shoufei_dianfei"
                     />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="入住情况"
+                    android:text="电费查询"
                     android:textSize="20dp"
                     android:gravity="center"
                     android:layout_marginTop="10dp"
@@ -158,6 +130,81 @@
 
 
         </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/hui_yuan1"
+                android:layout_margin="20dp"
+                android:id="@+id/btn_huhao"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/shoufei_huhao"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="户号管理"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/hui_yuan1"
+                android:layout_margin="20dp"
+                android:id="@+id/btn_zixun"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/shoufei_zixun"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="相关资讯"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
 
 
     </LinearLayout>
@@ -165,8 +212,64 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1.5"
+        android:layout_weight="1"
+        android:orientation="horizontal"
         >
+
+        <LinearLayout
+            android:id="@+id/btn_di_zidong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/shoufei_jiaofei"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自动缴费"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/btn_di_huhao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/shoufei_huhaoguanli"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="户号管理"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                />
+
+
+        </LinearLayout>
+
 
 
 

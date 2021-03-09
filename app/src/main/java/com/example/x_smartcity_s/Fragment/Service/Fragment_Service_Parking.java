@@ -1,4 +1,4 @@
-package com.example.x_smartcity_s.Fragment;
+package com.example.x_smartcity_s.Fragment.Service;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,6 +13,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.example.x_smartcity_s.Fragment.Fragment_Service;
 import com.example.x_smartcity_s.R;
 
 /**

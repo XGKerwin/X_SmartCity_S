@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="水费"
+            android:textSize="20dp"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_huming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="户名：赵A含"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:padding="5dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/bianhao"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="编号：84688468"
+            android:gravity="left|center"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:id="@+id/danwei"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:text="单位："
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/txt_zhuzhi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:text="住址：6-2-2"
+            />
+
+        <TextView
+            android:id="@+id/txt_keyong"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:text="住址：6-2-2"
+            />
+
+        <TextView
+            android:id="@+id/txt_qianfei"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:text="住址：6-2-2"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

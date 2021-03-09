@@ -1,7 +1,6 @@
-package com.example.x_smartcity_s.Fragment;
+package com.example.x_smartcity_s.Fragment.Service;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,6 +17,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.x_smartcity_s.Adapter.Spinner_adapter;
+import com.example.x_smartcity_s.Fragment.Fragment_Service;
 import com.example.x_smartcity_s.R;
 import com.example.x_smartcity_s.bean.GetViolationsByCarId;
 import com.example.x_smartcity_s.net.OKHttpTo;

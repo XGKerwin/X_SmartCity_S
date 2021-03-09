@@ -1,4 +1,4 @@
-package com.example.x_smartcity_s.Fragment;
+package com.example.x_smartcity_s.Fragment.Service;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,7 +14,6 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.x_smartcity_s.Adapter.Service_Parking_list_adapter;
 import com.example.x_smartcity_s.Adapter.Service_Parking_tcc_adapter;
 import com.example.x_smartcity_s.R;
 import com.example.x_smartcity_s.bean.GetParkInfor;

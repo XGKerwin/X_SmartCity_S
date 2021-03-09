@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/layout"
+    android:background="#fff"
+    android:padding="5dp"
+    android:layout_marginBottom="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:text="1路"
+            />
+
+        <TextView
+            android:id="@+id/piaojia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:text="票价：2"
+            />
+
+        <TextView
+            android:id="@+id/licheng"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:text="里程：20KM"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/txt_qi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="火车站"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#8C8C8C"
+            />
+
+        <TextView
+            android:id="@+id/zhi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="火车站"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/time1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="夏天：5：30-22：00"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/time2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="冬天：6：00-21：30"
+            android:gravity="center"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

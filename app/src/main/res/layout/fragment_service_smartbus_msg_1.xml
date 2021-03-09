@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/title"/>
+
+
+    <DatePicker
+        android:id="@+id/dp_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="calendar"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:spinnersShown="true"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text=""
+        android:id="@+id/txt_time"
+        android:gravity="center"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:text="确定"
+        android:id="@+id/btn_queding"
+        android:padding="3dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:text="下一步"
+        android:id="@+id/btn_xiayibu"
+        android:padding="3dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>

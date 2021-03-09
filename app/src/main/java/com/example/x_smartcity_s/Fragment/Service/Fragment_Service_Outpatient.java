@@ -1,4 +1,4 @@
-package com.example.x_smartcity_s.Fragment;
+package com.example.x_smartcity_s.Fragment.Service;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.x_smartcity_s.Adapter.Service_Outpatient_adapter;
+import com.example.x_smartcity_s.Fragment.Fragment_Service;
 import com.example.x_smartcity_s.R;
 import com.example.x_smartcity_s.bean.GetRankByHospitalId;
 import com.example.x_smartcity_s.bean.HospitalList;
@@ -36,6 +37,7 @@ import java.util.List;
  * Github : XGKerwin
  * date   : 2021/2/23  10:55
  */
+
 public class Fragment_Service_Outpatient extends Fragment {
 
     private ImageView titleBack;
@@ -137,10 +139,6 @@ public class Fragment_Service_Outpatient extends Fragment {
                         }
                     }).start();
         }
-
-
-
-
 
     }
 

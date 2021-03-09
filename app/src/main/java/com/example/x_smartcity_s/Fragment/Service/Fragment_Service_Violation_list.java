@@ -1,6 +1,5 @@
-package com.example.x_smartcity_s.Fragment;
+package com.example.x_smartcity_s.Fragment.Service;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;

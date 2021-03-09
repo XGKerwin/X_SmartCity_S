@@ -27,7 +27,7 @@ import okhttp3.Response;
  */
 public class OKHttpTo extends Thread{
     //192.168.101.7     192.168.43.50
-    private String ip = "192.168.43.50";
+    private String ip = "192.168.1.102";
     private String Url = "http://"+ip+":8080/mobileA/";
     private JSONObject jsonObject = new JSONObject();
     private OkHttpLo okHttpLo;
